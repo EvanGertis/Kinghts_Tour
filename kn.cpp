@@ -8,9 +8,21 @@ Purpose: contains the function implementations used to solve the knights tour pr
 #pragma once
 #include "pch.h"
 
+//the valid steps for the knight(xMoves[i], yMoves[i])
+const std::array<int, 8> KN::KnightsTour::xMoves = { 2, 1, -1, -2, -2, -1, 1, 2};
+const std::array<int, 8> KN::KnightsTour::yMoves = { 1, 2, 2, 1, -1, -2, -2, -1};
+
 //Begin KnightsTour
 KN::KnightsTour::KnightsTour()
 {
+	//solution matrix stores the counter value.
+	solutionMatrix.resize(BOARD_SIZE);
+
+	for (auto &subMatrix : solutionMatrix) {
+		subMatrix.resize(BOARD_SIZE);
+	}
+
+	initializeBoard();
 }
 //End KnightsTour
 

@@ -9,6 +9,8 @@ Purpose: main entry point for the knights tour simulation.
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	KN::KnightsTour knights;
+
+
 }
 
