@@ -11,5 +11,6 @@
 
 // TODO: add headers that you want to pre-compile here
 #include "kn.h"
-
+#include <vector>
+#include <iostream>
 #endif //PCH_H

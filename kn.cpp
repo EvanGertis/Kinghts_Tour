@@ -19,3 +19,35 @@ KN::KnightsTour::~KnightsTour()
 {
 }
 //End ~KnightsTour
+
+//Begin solveKnightsTourProblem
+void KN::KnightsTour::solveKNightsTourProblem()
+{
+}
+//End solveKNightsTourProblem
+
+//Begin solveProblem
+bool KN::KnightsTour::solveProblem(int stepCount, int x, int y)
+{
+	return false;
+}
+//End solveProblem
+
+//Begin isValidMove
+bool KN::KnightsTour::isValidMove(int x, int y)
+{
+	return false;
+}
+//End isValidMove
+
+//Begin showSolution
+void KN::KnightsTour::showSolution()
+{
+}
+//End showSolution
+
+//Begin initalizeBoard
+void KN::KnightsTour::initializeBoard()
+{
+}
+//End initalizeBoard

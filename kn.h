@@ -12,12 +12,30 @@ namespace KN {
 	//Begin class
 	class KnightsTour
 	{
+
+		//cells store integers (step counter)
+		std::vector<std::vector<int>> solutionMatrix;
+
+		//steps horizontally.
+		const static std::array<int, 8> xMoves;
+		const static std::array<int, 8> yMoves;
+
+		constexpr static int BOARD_SIZE = 8;
+
 	public:
 		KnightsTour();
 		~KnightsTour();
 
+		void solveKNightsTourProblem();
+		bool solveProblem(int stepCount, int x, int y);
+
+		bool isValidMove(int x, int y);
+
+		void showSolution();
+
 	private:
 
+		void initializeBoard();
 	};
 	//End class
 
