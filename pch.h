@@ -10,7 +10,8 @@
 #define PCH_H
 
 // TODO: add headers that you want to pre-compile here
-#include "kn.h"
+
 #include <vector>
 #include <iostream>
+#include "kn.h"
 #endif //PCH_H
