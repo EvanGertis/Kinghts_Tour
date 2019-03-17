@@ -10,7 +10,7 @@ Purpose: main entry point for the knights tour simulation.
 int main()
 {
 	KN::KnightsTour knights;
-
+	knights.solveKNightsTourProblem();
 
 }
 
